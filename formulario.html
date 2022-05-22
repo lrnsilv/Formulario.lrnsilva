@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+</head>
+<body> 
+    <h1>FORMULÁRIO</h1>
+
+<form>
+    <h4><fieldset>
+    <legend> DADOS PESSOAIS </legend>
+    <label id="id_nome"> Nome: </label><input type="text" name="nome" placeholder=" Digite seu nome " id="id_nome">
+
+<br>    
+
+    <label id="id_Data de nascimento"> Data de nascimento: </label><input type="text" name="Data de nascimento"  placeholder=" dd / mm / aaaa" id="id_data">
+
+<br>
+
+    <label id="id_E-mail:"> E-mail: </label><input type="text" name="e-mail" placeholder=" Digite seu e-mail" id="id_e-mail">
+
+<br>
+
+    <label id="id_telefone"> telefone: </label><input type="text" name="telefone" placeholder=" Digite seu telefone " id="id_telefone">
+<br>
+</form></h4></fieldset>
+
+<form>
+    <h4><fieldset>
+    <legend> DADOS ACADEMICOS </legend>
+    <label> Cursos:
+    <select name="curso">
+        
+        <option value="GTI">SDD</option>
+        <option value="GTI">GTI</option>
+        <option value="GTI">SDI</option>
+    </select>
+    </label>
+    
+<br>
+    <label> Semestre:
+    <input type="radio" name="números" value="1" checked /> 1    
+    <input type="radio" name="números" value="2" checked /> 2
+    <input type="radio" name="números" value="3" checked /> 3
+    <input type="radio" name="números" value="4" checked /> 4
+    <input type="radio" name="números" value="5" checked /> 5
+</fieldset>
+
+    <fieldset> 
+    <label id="id_tralha"> Trabalha? </label><input type="checkbox" name="area1" value="sim" /> sim <input type="checkbox" name="area1" value="não" /> não
+    
+<br>
+
+    <label id="id_local"> Local de trabalho: </label><input type="text" name="local" id="id_local">
+
+<br>
+
+    <label id="id_descreva"> Descreva sua experiencia:</label>
+    <p><textarea
+        cols="19" rows="4"></textarea></p>
+    </fieldset>        
+
+<form>
+    <input type="submit" value="Gravar"> <input type="submit" value="Limpar">
+</form>
+
+</body>
+</html>
